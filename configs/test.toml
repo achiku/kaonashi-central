@@ -1,0 +1,9 @@
+debug = true
+testing = true
+
+[database]
+server = "localhost"
+database_name = "pgtest"
+user_name = "pgtest"
+port = "5432"
+ssl_mode = "disable"
