@@ -1,6 +1,8 @@
-# kaonashi
+# kaonashi-server
 
-Headless local note app with just-enough set of RESTful APIs
+## Description
+
+Headless note server with just-enough set of RESTful APIs
 
 
 ## Why created
