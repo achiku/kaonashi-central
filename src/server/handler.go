@@ -5,9 +5,10 @@ import (
 	"net/http"
 	"time"
 
+	"golang.org/x/net/context"
+
 	"github.com/go-zoo/bone"
 	"github.com/gocraft/dbr"
-	"golang.org/x/net/context"
 )
 
 func getNote(ctx context.Context, w http.ResponseWriter, r *http.Request) {

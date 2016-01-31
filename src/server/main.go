@@ -6,10 +6,11 @@ import (
 	"os"
 	"time"
 
+	"golang.org/x/net/context"
+
 	"github.com/getsentry/raven-go"
 	"github.com/go-zoo/bone"
 	"github.com/rs/xhandler"
-	"golang.org/x/net/context"
 )
 
 func main() {
