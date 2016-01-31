@@ -1,0 +1,157 @@
+{
+	"version": 0,
+	"dependencies": [
+		{
+			"importpath": "bitbucket.org/liamstask/goose/cmd/goose",
+			"repository": "https://bitbucket.org/liamstask/goose",
+			"revision": "8488cc47d90c8a502b1c41a462a6d9cc8ee0a895",
+			"branch": "master",
+			"path": "/cmd/goose"
+		},
+		{
+			"importpath": "bitbucket.org/liamstask/goose/lib/goose",
+			"repository": "https://bitbucket.org/liamstask/goose",
+			"revision": "8488cc47d90c8a502b1c41a462a6d9cc8ee0a895",
+			"branch": "master",
+			"path": "/lib/goose"
+		},
+		{
+			"importpath": "github.com/getsentry/raven-go",
+			"repository": "https://github.com/getsentry/raven-go",
+			"revision": "1cc47a9463b90f246a0503d4c2e9a55c9459ced3",
+			"branch": "master"
+		},
+		{
+			"importpath": "github.com/go-sql-driver/mysql",
+			"repository": "https://github.com/go-sql-driver/mysql",
+			"revision": "b4db83c6faa0dc87d33f0bd7cdc81c7078594278",
+			"branch": "master"
+		},
+		{
+			"importpath": "github.com/go-zoo/bone",
+			"repository": "https://github.com/go-zoo/bone",
+			"revision": "6671f8b59444aa7b605234ec7a1b331cecee5326",
+			"branch": "master"
+		},
+		{
+			"importpath": "github.com/gocraft/dbr",
+			"repository": "https://github.com/gocraft/dbr",
+			"revision": "cb9004b5e7a6dd9cc89fce353a8d93012f63a10a",
+			"branch": "master"
+		},
+		{
+			"importpath": "github.com/gorilla/context",
+			"repository": "https://github.com/gorilla/context",
+			"revision": "1c83b3eabd45b6d76072b66b746c20815fb2872d",
+			"branch": "master"
+		},
+		{
+			"importpath": "github.com/gorilla/mux",
+			"repository": "https://github.com/gorilla/mux",
+			"revision": "26a6070f849969ba72b72256e9f14cf519751690",
+			"branch": "master"
+		},
+		{
+			"importpath": "github.com/howeyc/fsnotify",
+			"repository": "https://github.com/howeyc/fsnotify",
+			"revision": "f0c08ee9c60704c1879025f2ae0ff3e000082c13",
+			"branch": "master"
+		},
+		{
+			"importpath": "github.com/julienschmidt/httprouter",
+			"repository": "https://github.com/julienschmidt/httprouter",
+			"revision": "abb0dc9f755ff0a9d818db28d9d8b9810066e2b5",
+			"branch": "master"
+		},
+		{
+			"importpath": "github.com/kylelemons/go-gypsy/yaml",
+			"repository": "https://github.com/kylelemons/go-gypsy",
+			"revision": "42fc2c7ee9b8bd0ff636cd2d7a8c0a49491044c5",
+			"branch": "master",
+			"path": "/yaml"
+		},
+		{
+			"importpath": "github.com/lib/pq",
+			"repository": "https://github.com/lib/pq",
+			"revision": "8ad2b298cadd691a77015666a5372eae5dbfac8f",
+			"branch": "master"
+		},
+		{
+			"importpath": "github.com/mattn/go-colorable",
+			"repository": "https://github.com/mattn/go-colorable",
+			"revision": "4af63d73f5bea08b682ad2cd198b1e607afd6be0",
+			"branch": "master"
+		},
+		{
+			"importpath": "github.com/mattn/go-sqlite3",
+			"repository": "https://github.com/mattn/go-sqlite3",
+			"revision": "0cc1174c16b41f18bd77050fb5ffc84d88a739cc",
+			"branch": "master"
+		},
+		{
+			"importpath": "github.com/naoina/go-stringutil",
+			"repository": "https://github.com/naoina/go-stringutil",
+			"revision": "6b638e95a32d0c1131db0e7fe83775cbea4a0d0b",
+			"branch": "master"
+		},
+		{
+			"importpath": "github.com/naoina/toml",
+			"repository": "https://github.com/naoina/toml",
+			"revision": "751171607256bb66e64c9f0220c00662420c38e9",
+			"branch": "master"
+		},
+		{
+			"importpath": "github.com/pilu/config",
+			"repository": "https://github.com/pilu/config",
+			"revision": "3eb99e6c0b9a2dae0f56f05552c06ca5a643919b",
+			"branch": "master"
+		},
+		{
+			"importpath": "github.com/pilu/fresh",
+			"repository": "https://github.com/pilu/fresh",
+			"revision": "f734bb8831fac5374dedd95620b51a2fe4190336",
+			"branch": "master"
+		},
+		{
+			"importpath": "github.com/rs/xhandler",
+			"repository": "https://github.com/rs/xhandler",
+			"revision": "d9d9599b6aaf6a058cb7b1f48291ded2cbd13390",
+			"branch": "master"
+		},
+		{
+			"importpath": "github.com/ziutek/mymysql/godrv",
+			"repository": "https://github.com/ziutek/mymysql",
+			"revision": "75ce5fbba34b1912a3641adbd58cf317d7315821",
+			"branch": "master",
+			"path": "/godrv"
+		},
+		{
+			"importpath": "github.com/ziutek/mymysql/mysql",
+			"repository": "https://github.com/ziutek/mymysql",
+			"revision": "75ce5fbba34b1912a3641adbd58cf317d7315821",
+			"branch": "master",
+			"path": "/mysql"
+		},
+		{
+			"importpath": "github.com/ziutek/mymysql/native",
+			"repository": "https://github.com/ziutek/mymysql",
+			"revision": "75ce5fbba34b1912a3641adbd58cf317d7315821",
+			"branch": "master",
+			"path": "/native"
+		},
+		{
+			"importpath": "golang.org/x/net/context",
+			"repository": "https://go.googlesource.com/net",
+			"revision": "04b9de9b512f58addf28c9853d50ebef61c3953e",
+			"branch": "master",
+			"path": "/context"
+		},
+		{
+			"importpath": "golang.org/x/net/http2/hpack",
+			"repository": "https://go.googlesource.com/net",
+			"revision": "04b9de9b512f58addf28c9853d50ebef61c3953e",
+			"branch": "master",
+			"path": "/http2/hpack"
+		}
+	]
+}
