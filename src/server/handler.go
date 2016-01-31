@@ -11,12 +11,12 @@ import (
 )
 
 func getNote(ctx context.Context, w http.ResponseWriter, r *http.Request) {
-	noteId := bone.GetValue(r, "id")
+	noteID := bone.GetValue(r, "id")
 	sess := ctx.Value("db").(*DB).conn.NewSession(nil)
 	var note Note
 	sess.Select("id", "title", "body", "created", "updated").
 		From("note").
-		Where("id = ?", noteId).
+		Where("id = ?", noteID).
 		Load(&note)
 
 	if note.Id == 0 {
@@ -69,12 +69,12 @@ func createNote(ctx context.Context, w http.ResponseWriter, r *http.Request) {
 }
 
 func deleteNote(ctx context.Context, w http.ResponseWriter, r *http.Request) {
-	noteId := bone.GetValue(r, "id")
+	noteID := bone.GetValue(r, "id")
 	sess := ctx.Value("db").(*DB).conn.NewSession(nil)
 	var note Note
 	sess.Select("id").
 		From("note").
-		Where("id = ?", noteId).
+		Where("id = ?", noteID).
 		Load(&note)
 	if note.Id == 0 {
 		http.Error(w, http.StatusText(http.StatusNotFound), http.StatusNotFound)
@@ -94,12 +94,12 @@ func updateNote(ctx context.Context, w http.ResponseWriter, r *http.Request) {
 	title := dbr.NewNullString(r.Form["title"][0])
 	body := dbr.NewNullString(r.Form["body"][0])
 
-	noteId := bone.GetValue(r, "id")
+	noteID := bone.GetValue(r, "id")
 	sess := ctx.Value("db").(*DB).conn.NewSession(nil)
 	var note Note
 	sess.Select("id, title, body, created, updated").
 		From("note").
-		Where("id = ?", noteId).
+		Where("id = ?", noteID).
 		Load(&note)
 	if note.Id == 0 {
 		http.Error(w, http.StatusText(http.StatusNotFound), http.StatusNotFound)

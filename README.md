@@ -1,13 +1,13 @@
-# kaonashi-server
+# kaonashi-central
 
 ## Description
 
-Headless note server with just-enough set of RESTful APIs
+Headless centaral note server with [kaonashi](https://github.com/achiku/kaonashi).
 
 
 ## Why created
 
-I wanted a simple note app for programmers who can create whatever the UI they want.
+To share note written in kaonashi.
 
 
 ## What it can do
